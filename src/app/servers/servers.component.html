@@ -1,0 +1,37 @@
+<!-- <div class="container py-3  bg-dark-subtle ">
+
+    <div class="row justify-content-center">
+        <div class="col-6 d-flex justify-content-center">
+            <input type="text" class="form-control" [(ngModel)]="serverName">
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+            <button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">Add Server</button>
+        </div>
+        <div class="row justify-content-center py-3  ">
+            <div class="col-6 d-flex justify-content-center">
+                <p [innerText]="allowNewServer"></p>
+            </div>
+        </div> -->
+
+<!-- <div class="row justify-content-center  ">
+            <div class="col-6 d-flex justify-content-center">
+                <p [innerText]="serverCreationStatus"></p>
+            </div>
+        </div> -->
+
+<!-- <div class="row justify-content-center  ">
+            <div class="col-6 d-flex justify-content-center text-break ">
+                <p>{{serverName}}</p>
+                <p *ngIf="serverCreted; else noServer">server is creted! server name is {{serverName}}</p>
+                <ng-template #noServer>
+                    <p>No server was created</p>
+                </ng-template>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container py-3 bg-info-subtle ">
+    <app-server *ngFor="let server of servers"></app-server>
+</div> -->
+
+<app-server></app-server>
